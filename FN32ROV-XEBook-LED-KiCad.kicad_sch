@@ -614,7 +614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 152.4 55.88 0)
 			(effects
 				(font
@@ -632,7 +632,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mates via 4-pin JST PH pigtail to J_LED1 on the FN32ROV-XEBook main board. SMD, mounted on the back (B.Cu) of this board -- surface mount so no through-hole barrel pokes through to the light-pipe side."
+		(property "Description" "Mates via 4-pin JST PH pigtail to J_LED1 on the FN32ROV-XEBook main board. Through-hole, hand-soldered, mounted on the back of this board -- kept far enough (in Y) from the LED row that its plated-through pads do not land near the light-pipe contact points."
+			(at 152.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C265289"
 			(at 152.4 55.88 0)
 			(effects
 				(font
@@ -705,7 +714,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OSRAM LB QH9G-N1OO-35-1, blue. Carried over from original FN32ROV-1.7.1 BOM."
+		(property "Description" "YONGYUTAI YLED0402B, blue 460nm, Vf 2.6-3.1V."
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C30584803"
 			(at 85.09 59.69 0)
 			(effects
 				(font
@@ -772,7 +790,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rohm SML-P12DTT86R, orange. Carried over from original FN32ROV-1.7.1 BOM."
+		(property "Description" "YONGYUTAI YLED0402O, orange 611nm, Vf 1.8-2.3V."
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28310436"
 			(at 85.09 44.45 0)
 			(effects
 				(font
@@ -839,7 +866,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rohm SML-P12PTT86R, green 560nm, Vf approx 2.2V typ. Replaces original SunLED white LED for this board (see main board R13)."
+		(property "Description" "Everlight 16-213/G6C-AK2L2VY/3T, yellow-green 575nm, Vf 1.7-2.2V. Replaces original SunLED white LED for this board (see main board R13)."
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C471422"
 			(at 85.09 74.93 0)
 			(effects
 				(font

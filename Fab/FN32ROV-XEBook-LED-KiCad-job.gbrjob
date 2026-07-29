@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.7"
     },
-    "CreationDate": "2026-07-28T22:11:23-07:00"
+    "CreationDate": "2026-07-29T00:26:30-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -15,7 +15,7 @@
     },
     "Size": {
       "X": 40.1,
-      "Y": 10.1
+      "Y": 14.1
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "FN32ROV-XEBook-LED-KiCad-F_Cu.gbr",
+      "Path": "FN32ROV-XEBook-LED-KiCad-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FN32ROV-XEBook-LED-KiCad-B_Cu.gbr",
+      "Path": "FN32ROV-XEBook-LED-KiCad-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FN32ROV-XEBook-LED-KiCad-F_Paste.gbr",
+      "Path": "FN32ROV-XEBook-LED-KiCad-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FN32ROV-XEBook-LED-KiCad-B_Paste.gbr",
+      "Path": "FN32ROV-XEBook-LED-KiCad-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FN32ROV-XEBook-LED-KiCad-F_Silkscreen.gbr",
+      "Path": "FN32ROV-XEBook-LED-KiCad-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FN32ROV-XEBook-LED-KiCad-B_Silkscreen.gbr",
+      "Path": "FN32ROV-XEBook-LED-KiCad-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FN32ROV-XEBook-LED-KiCad-F_Mask.gbr",
+      "Path": "FN32ROV-XEBook-LED-KiCad-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "FN32ROV-XEBook-LED-KiCad-B_Mask.gbr",
+      "Path": "FN32ROV-XEBook-LED-KiCad-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "FN32ROV-XEBook-LED-KiCad-Edge_Cuts.gbr",
+      "Path": "FN32ROV-XEBook-LED-KiCad-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
