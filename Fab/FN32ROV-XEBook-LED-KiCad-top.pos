@@ -1,0 +1,9 @@
+### Footprint positions - created on 2026-07-28T22:11:57-0700 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                   PosX       PosY       Rot  Side
+D1        WIFI_LED_GREEN_0402  LED_0402_1005Metric   110.0000  -105.0000    0.0000  top
+D2        BT_LED_BLUE_0402     LED_0402_1005Metric   120.0000  -105.0000    0.0000  top
+D3        SIO_LED_ORANGE_0402  LED_0402_1005Metric   130.0000  -105.0000    0.0000  top
+## End
