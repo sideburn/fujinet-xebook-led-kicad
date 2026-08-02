@@ -8,9 +8,28 @@ A small KiCad 9 daughter board carrying the three FujiNet status LEDs (WiFi, Blu
 SIO) for the [FN32ROV-XEBook-KiCad](../FN32ROV-XEBook-KiCad) main board. See `README.md`
 for the full description.
 
-Status: work in progress — schematic captured, footprints/nets placed on the PCB and
-verified (ERC clean, DRC clean, schematic/PCB parity clean). Not yet routed, not yet
-fabricated.
+Status: **shipped** — rev 1.0 fabricated at **JLCPCB** (not PCBWay; the main board went to
+PCBWay under order `T-1D22W845207A`, this board and the SD daughter board were ordered
+separately at JLCPCB) and already shipped as of 2026-08-01, from the `Fab/` package.
+
+This board needed **no revision at all** — see "The floating copper pour here is
+intentional" below — so its `Fab/` still matches source exactly and was left flat, with no
+`as-built-1.0-*/` archive and no 1.1 package. Nothing to rework on arrival either.
+
+Schematic captured, PCB routed (19 track segments,
+2 vias), ERC clean, DRC clean, schematic/PCB parity clean, 0 unrouted items. The 40mm x
+14mm board carries D1/D2/D3 on F.Cu with J1 (through-hole, `B4B-PH-K`) mounted on **B.Cu**
+so the connector body sits on the opposite face from the LEDs.
+
+### The floating copper pour here is intentional — leave it
+
+The 2026-07-31 audit found all three boards in this family shared a single zone on
+`(net 0)` — a floating pour rather than a ground plane. That was fixed in source on the
+main and SD boards. **It cannot be fixed here and does not need to be: this board has no
+GND net at all.** The circuit is common-anode 3V3 plus three cathode signals; there is
+nothing to tie the pour to. With three DC-driven LEDs it makes no practical difference.
+Don't "fix" it by tying the pour to 3V3. See the main board's `CLAUDE.md`, "Design
+review", for the full context.
 
 ## Interface contract with the main board
 
