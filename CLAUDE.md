@@ -49,6 +49,12 @@ change too — see its `CLAUDE.md`, "External LED board interface (J_LED1)".
 
 D1 (WiFi) is green (Rohm SML-P12PTT86R), not the original white — see README for why.
 
+**Brightness matched (2026-09-18).** On the first build D2 (blue) and D3 (orange) were about
+twice as bright as D1 (green). D1 is the reference; the fix is on the **main** board —
+R14 1k → 30k and R15 1.2k → 10K (R13 stays 2.7k), found by a bench match with this board
+powered at 3.3V. Nothing changes on this board. Full detail in the main board's
+`CLAUDE.md`, "External LED board interface (J_LED1)".
+
 ## Mechanical constraints (hard requirements, don't change without confirming)
 
 - Board outline: 40mm x 10mm.

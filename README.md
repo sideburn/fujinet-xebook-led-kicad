@@ -14,7 +14,8 @@ interface (J_LED1)"). This board is that panel-mounted LED daughter board.
   wired back to its own signal pin. The ESP32 on the main board sinks current by driving
   the corresponding GPIO low.
   - D1 is **green** (Rohm SML-P12PTT86R) — the original FN32ROV-1.7.1 WiFi LED was white
-    (SunLED XZBWR68F5MAV-3, now obsolete); this board uses green instead. The main board's
+    (SunLED XZBWR68F5MAV-3, still available); green is a deliberate choice for this build,
+    not a substitution forced by availability. The main board's
     R13 was resized from 1k to 2.7k to keep the current sane for the green LED's lower
     forward voltage (~2.2V vs ~2.9V for white).
   - D2 (blue, OSRAM LB QH9G-N1OO-35-1) and D3 (orange, Rohm SML-P12DTT86R) are unchanged
