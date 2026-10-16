@@ -106,3 +106,11 @@ Same as the main board:
   a horizontal part, check the offset doesn't reach exactly onto a neighboring part's
   position — ERC won't catch this, only a visual check (or DRC's silkscreen-overlap
   checks) will.
+
+## Fab package 1.2 (2026-10-15)
+
+`Fab/Gerbers-FN32ROV-XEBook-LED-1.2/` + `FN32ROV-XEBook-LED-KiCad-Fab-1.2.zip`. Adds the J1
+pin-1 silkscreen marker. Generated with `kicad-cli` 9.0.7. DRC clean.
+
+Only `F_Silkscreen` differs from 1.1; every other layer is identical. BOM and CPL carried
+over byte-identical.
